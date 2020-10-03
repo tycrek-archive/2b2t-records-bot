@@ -1,7 +1,7 @@
 /**
- * mandatum
+ * 2b2t-records-bot
  * 
- * A Discord bot
+ * A Discord bot for 2b2t World Records server
  * 
  * GNU GPL 3.0
  * 
@@ -11,7 +11,7 @@
  * 
  */
 
-const USING_VPN = true;
+const USING_VPN = false;
 if (USING_VPN) process.env.NODE_TLS_REJECT_UNAUTHORIZED = "0";
 
 /* Imports */
@@ -73,11 +73,11 @@ module.exports.commands = commands;
 
 // When client is ready (after it logs in)
 client.once('ready', () => {
-	log.info('Beep, boop! mandatum is ready :)');
+	log.info('Beep, boop! 2b2t-records-bot is ready :)');
 
 	//client.guilds.fetch(guilds.bt)
 	//	.then((guild) => guild.channels.cache.find(channel => channel.id === '752664709408227518'))
-	//.then((guildChannel) => guildChannel.send('`Beep, boop! mandatum is ready :)`'));
+	//.then((guildChannel) => guildChannel.send('`Beep, boop! 2b2t-records-bot is ready :)`'));
 
 	// Check configurations
 	client.guilds.cache.each((guild) => {
@@ -129,20 +129,20 @@ client.once('ready', () => {
 	});
 
 	// Custom status
-	client.user.setActivity(`the world burn (${prefix})`, { type: "WATCHING" })
+	client.user.setActivity(`newfags drown (${prefix})`, { type: "WATCHING" })
 		.catch((err) => log.warn(err));
 
 	// Scheduled message test
-	schedule.scheduleJob('0 */1 * * *', () =>
-		client.guilds.fetch(guilds.bt)
-			.then((guild) => guild.channels.cache.find(channel => channel.id === '752898408834138145'))
-			.then((guildChannel) =>
-				guildChannel.send(
-					new MessageEmbed()
-						.setTitle(`Clock strikes ${moment().format('h')}!`)
-						.setColor(0xFFFFFF)
-						.setDescription(printTime())))
-			.catch((err) => log.warn(err)));
+	// schedule.scheduleJob('0 */1 * * *', () =>
+	// 	client.guilds.fetch(guilds.bt)
+	// 		.then((guild) => guild.channels.cache.find(channel => channel.id === '752898408834138145'))
+	// 		.then((guildChannel) =>
+	// 			guildChannel.send(
+	// 				new MessageEmbed()
+	// 					.setTitle(`Clock strikes ${moment().format('h')}!`)
+	// 					.setColor(0xFFFFFF)
+	// 					.setDescription(printTime())))
+	// 		.catch((err) => log.warn(err)));
 });
 
 client.on('warn', (warn) => log.warn(warn));
@@ -189,40 +189,40 @@ client.on('message', (msg) => {
 });
 
 // Swear word processor
-client.on('message', (msg) => {
-	if (msg.author.bot || msg.channel.type === 'dm' || !filter.guild(msg, [guilds.t, guilds.bt, guilds.mb512]) || filter.category(msg, '750773557239349259')) return;
+// client.on('message', (msg) => {
+// 	if (msg.author.bot || msg.channel.type === 'dm' || !filter.guild(msg, [guilds.t, guilds.bt, guilds.mb512]) || filter.category(msg, '750773557239349259')) return;
 
-	msg.isSwear = true;
-	neoFilter(msg)
-		.then((allowed) => {
-			if (!allowed) return;
+// 	msg.isSwear = true;
+// 	neoFilter(msg)
+// 		.then((allowed) => {
+// 			if (!allowed) return;
 
-			let swears = fs.readJsonSync(path.join(__dirname, 'swears.json')).swears;
-			for (let i = 0; i < swears.length; i++) {
-				if (new RegExp(`\\b${swears[i]}\\b`, 'gi').test(msg.content.toLowerCase())) {
+// 			let swears = fs.readJsonSync(path.join(__dirname, 'swears.json')).swears;
+// 			for (let i = 0; i < swears.length; i++) {
+// 				if (new RegExp(`\\b${swears[i]}\\b`, 'gi').test(msg.content.toLowerCase())) {
 
-					let configPath = path.join(__dirname, `./config/servers/guild.${msg.guild.id}.json`);
-					fs.readJson(configPath)
-						.then((config) => {
-							let cooldown = config.settings.swear && config.settings.swear.cooldown && config.settings.swear.cooldown[msg.channel.id] ? config.settings.swear.cooldown[msg.channel.id] : 30;
+// 					let configPath = path.join(__dirname, `./config/servers/guild.${msg.guild.id}.json`);
+// 					fs.readJson(configPath)
+// 						.then((config) => {
+// 							let cooldown = config.settings.swear && config.settings.swear.cooldown && config.settings.swear.cooldown[msg.channel.id] ? config.settings.swear.cooldown[msg.channel.id] : 30;
 
-							// Return if we are within the cooldown period
-							if (lastSwear[msg.channel.id] != null && (moment().format('X') - lastSwear[msg.channel.id]) < cooldown) return;
+// 							// Return if we are within the cooldown period
+// 							if (lastSwear[msg.channel.id] != null && (moment().format('X') - lastSwear[msg.channel.id]) < cooldown) return;
 
-							// Curse thee heathen!
-							msg.channel.send(`Watch your fucking language ${msg.author.toString()}.`)
-								.then((botMsg) => trash(msg, botMsg, false))
-								.catch((err) => log.warn(err));
+// 							// Curse thee heathen!
+// 							msg.channel.send(`Watch your fucking language ${msg.author.toString()}.`)
+// 								.then((botMsg) => trash(msg, botMsg, false))
+// 								.catch((err) => log.warn(err));
 
-							// Update the cooldown and log the time updated
-							lastSwear[msg.channel.id] = moment().format('X');
-							log.info(`Setting ${msg.guild.name}: ${msg.channel.name} swear cooldown at ${lastSwear[msg.channel.id]}`);
-						});
-					break;
-				}
-			}
-		});
-});
+// 							// Update the cooldown and log the time updated
+// 							lastSwear[msg.channel.id] = moment().format('X');
+// 							log.info(`Setting ${msg.guild.name}: ${msg.channel.name} swear cooldown at ${lastSwear[msg.channel.id]}`);
+// 						});
+// 					break;
+// 				}
+// 			}
+// 		});
+// });
 
 // Log in to Discord using token
 client.login(fs.readJsonSync(path.join(__dirname, 'auth.json')).token)

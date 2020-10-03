@@ -1,5 +1,5 @@
 {
-  "name": "mandatum",
+  "name": "2b2t-records-bot",
   "version": "1.0.0",
   "description": "Discord bot",
   "main": "bot.js",
@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tycrek/mandatum.git"
+    "url": "git+https://github.com/tycrek/2b2t-records-bot.git"
   },
   "author": "tycrek",
   "license": "GPL-3.0-or-later",
   "bugs": {
-    "url": "https://github.com/tycrek/mandatum/issues"
+    "url": "https://github.com/tycrek/2b2t-records-bot/issues"
   },
-  "homepage": "https://github.com/tycrek/mandatum#readme",
+  "homepage": "https://github.com/tycrek/2b2t-records-bot#readme",
   "dependencies": {
     "@discordjs/opus": "^0.3.2",
     "discord.js": "^12.3.1",
