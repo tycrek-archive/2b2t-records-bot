@@ -16,7 +16,7 @@ module.exports = {
 				.setColor(0x002d4e)
 				.setThumbnail('https://cdn.discordapp.com/icons/664189110562586625/32f4c97d13c073e458c3ddaa8dfe30c4.png?size=4096')
 				.setFooter('Created by tycrek')
-				.addFields(['info', 'fun', 'utility', 'voice', 'moderator', 'admin'].map(category => ({
+				.addFields(['info', 'fun', 'utility', /* 'voice' */, 'moderator', 'admin'].map(category => ({
 					name: category[0].toUpperCase() + category.slice(1), // crappy way to capitalize 1st letter
 					value: Object.keys(require('./' + category)).map(c => `\`>${c}\``).join('\n'),
 					inline: true

@@ -30,7 +30,7 @@ module.exports = {
 			.then((botMsg) => trash(msg, botMsg));
 	}),
 
-	stats: new Command(CATEGORY, null, (cmd, msg) => {
+	/* stats: new Command(CATEGORY, null, (cmd, msg) => {
 		const args = msg.content.slice(prefix.length).trim().split(/ +/);
 		let command = args.shift();
 		let category = args.join('-');
@@ -79,14 +79,14 @@ module.exports = {
 			.then((_results) => msg.channel.send('Deleted stats channels'))
 			.then((botMsg) => trash(msg, botMsg))
 			.catch((err) => log.warn(err));
-	}),
+	}), */
 
-	record: new Command(CATEGORY, new UsageEmbed('record', ' ', false, ['user', 'record', 'value', 'screenshotUrl', 'mcusername', 'colour'], ['Discord username', 'What record got broken (deaths, block mined, etc). Use hyphens to indicate a space.', 'Numerical value of the record', 'URL to the screenshot for proof', 'Minecraft username for skin', 'Colour for Embed accent (use >colours to see available colours)']), (cmd, msg) => {
+	record: new Command(CATEGORY, new UsageEmbed('record', ' ', false, ['user', 'record', 'value', 'screenshotUrl', 'mcusername', 'colour'], ['Discord username', 'What record got broken (deaths, block mined, etc). Use hyphens to indicate a space.', 'Numerical value of the record', 'URL to the screenshot for proof', 'Minecraft username for skin', 'Colour for Embed accent (use &colours to see available colours)']), (cmd, msg) => {
 		if (!filter.author(msg, owner)) return noPermission(msg);
 		const args = msg.content.slice(prefix.length).trim().split(/ +/);
 		let command = args.shift();
 
-		if (args.length < 5)
+		if (args.length < 6)
 			return cmd.help(msg);
 
 		let discordUser = args[0];

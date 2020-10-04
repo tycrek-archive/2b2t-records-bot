@@ -61,7 +61,7 @@ var commands = {
 	...require('./modules/info'),
 	...require('./modules/fun'),
 	...require('./modules/utility'),
-	...require('./modules/voice'),
+	//...require('./modules/voice'),
 	...require('./modules/moderator'),
 	...require('./modules/admin')
 };
@@ -129,7 +129,7 @@ client.once('ready', () => {
 	});
 
 	// Custom status
-	client.user.setActivity(`newfags drown (${prefix})`, { type: "WATCHING" })
+	client.user.setActivity(`newfags drown`, { type: "WATCHING" })
 		.catch((err) => log.warn(err));
 
 	// Scheduled message test

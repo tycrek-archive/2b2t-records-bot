@@ -93,7 +93,7 @@ module.exports = {
 		}
 	}),
 
-	kick: new Command(CATEGORY, new UsageEmbed('kick', ' ', false, ['@user', 'reason'], ['User to kick (must be a mention)', 'Reason to kick user'], ['Reason does not have to be wrapped in quotes (" ")']), (cmd, msg) => {
+	/* kick: new Command(CATEGORY, new UsageEmbed('kick', ' ', false, ['@user', 'reason'], ['User to kick (must be a mention)', 'Reason to kick user'], ['Reason does not have to be wrapped in quotes (" ")']), (cmd, msg) => {
 		const args = msg.content.slice(prefix.length).trim().split(/ +/);
 
 		if (args.length < 3)
@@ -268,7 +268,7 @@ module.exports = {
 				]))
 			.then((_results) => trash(msg, reactMsg))
 			.catch((err) => log.error(err));
-	}),
+	}), */
 
 	// poll: new Command(CATEGORY, null, (cmd, msg) => {
 	// 	let args = msg.content.slice(prefix.length).trim().split(/ +/);
@@ -303,6 +303,7 @@ module.exports = {
 	})
 }
 
+module.exports.colors = module.exports.colours;
 
 const discordColours = [
 	"DEFAULT",
