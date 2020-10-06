@@ -63,7 +63,8 @@ var commands = {
 	...require('./modules/utility'),
 	//...require('./modules/voice'),
 	...require('./modules/moderator'),
-	...require('./modules/admin')
+	...require('./modules/admin'),
+	...require('./modules/records')
 };
 
 //* (3/3) Add commands to exports

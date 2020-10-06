@@ -226,7 +226,7 @@ function neoFilter(msg) {
 					module = modules[module];
 					if (
 						//* First check: is the current iteration admin or moderator
-						(module.module === 'admin' || module.module === 'moderator') &&
+						(module.module === 'admin' || module.module === 'moderator' || module.module === 'records') &&
 
 						//* Second check: does the current module iteration have the command being run
 						module.commands.includes(cmd) &&
