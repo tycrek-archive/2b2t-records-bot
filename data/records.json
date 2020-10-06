@@ -1,0 +1,68 @@
+{
+	"categories": [
+		"general",
+		"travel",
+		"block",
+		"item",
+		"mob"
+	],
+	"records": {
+		"general": {},
+		"travel": {},
+		"block": {},
+		"item": {},
+		"mob": {
+			"Zombies-killed": {
+				"category": "mob",
+				"title": "Zombies-killed",
+				"discord": "<@!267079723547492352>",
+				"minecraft": "TotalDarkness",
+				"value": "18845",
+				"url": "https://cdn.discordapp.com/attachments/668112123456651274/678727387604582411/image0.jpg",
+				"colour": "DARK_GREEN",
+				"message": "762880529020092429"
+			},
+			"Pigs-killed": {
+				"category": "mob",
+				"title": "Pigs-killed",
+				"discord": "@Manlak#1291",
+				"minecraft": "Ruhama",
+				"value": "35443",
+				"url": "https://cdn.discordapp.com/attachments/668112123456651274/669626840062623774/image0.jpg",
+				"colour": "LUMINOUS_VIVID_PINK",
+				"message": "762880887929962506"
+			},
+			"Skeletons-killed": {
+				"category": "mob",
+				"title": "Skeletons-killed",
+				"discord": "<@!267079723547492352>",
+				"minecraft": "TotalDarkness",
+				"value": "12854",
+				"url": "https://cdn.discordapp.com/attachments/668112123456651274/668435550604361778/image0.jpg",
+				"colour": "WHITE",
+				"message": "762881135717777409"
+			},
+			"Enderman-killed": {
+				"category": "mob",
+				"title": "Enderman-killed",
+				"discord": "<@!298638295653679114>",
+				"minecraft": "MegaAlphaVulcan",
+				"value": "10943",
+				"url": "https://cdn.discordapp.com/attachments/668112123456651274/668282810653474817/image0.jpg",
+				"colour": "PURPLE",
+				"message": "762881380635901982"
+			},
+			"Magma-Cubes-Killed": {
+				"category": "mob",
+				"title": "Magma-Cubes-Killed",
+				"discord": "<@!270059191429890049>",
+				"minecraft": "Gsmack",
+				"value": "854",
+				"url": "https://cdn.discordapp.com/attachments/668112123456651274/668269439057395712/Magma_Cube.png",
+				"colour": "ORANGE",
+				"message": "762881598848630845"
+			}
+		},
+		"bot": {}
+	}
+}
