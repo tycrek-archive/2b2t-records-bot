@@ -146,5 +146,37 @@ module.exports = {
 				}
 			})
 			.catch((err) => log.warn(err));
+	}),
+
+	search: new Command(CATEGORY, new UsageEmbed('search', ' ', false, ['category', 'query'], ['Category to search in', 'What to search for'], ['Example: `&search mob zombies killed`']), (cmd, msg) => {
+		const args = msg.content.slice(prefix.length).trim().split(/ +/);
+		let command = args.shift();
+
+		if (args.length < 2)
+			return cmd.help(msg);
+
+		let category = args.shift();
+		let query = args.join(' ').toLowerCase();
+
+		fs.readJson(path.join(__dirname, '../data/records.json'))
+			.then((records) => records.records)
+			.then((records) => {
+				if (records[category]) return records[category];
+				else throw new Error('Category not found');
+			})
+			.then((category) => [category, Object.keys(category).filter((record) => record.toLowerCase().includes(query))])
+			.then((results) => {
+				if (results[1].length === 0) throw new Error('No results found');
+				else return results[1].map((result) => results[0][result]);
+			})
+			.then((results) => results.map((record) => `**Record**: \`${record.title.replace(/\-/g, ' ')}\`\n**Set by**: ${record.discord} (${record.minecraft})\n[Click to go to record](https://discordapp.com/channels/664189110562586625/${msg.guild.channels.cache.find((channel) => channel.name.includes(category)).id}/${record.message})`))
+			.then((formattedResults) =>
+				msg.channel.send(new MessageEmbed()
+					.setTitle(`Results for \`${query}\` in category \`${category}\``)
+					.setDescription(formattedResults.join('\n\n'))))
+			.catch((err) => {
+				log.warn(err);
+				msg.channel.send(err.message);
+			});
 	})
 }
