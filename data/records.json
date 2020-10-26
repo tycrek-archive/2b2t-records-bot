@@ -8,9 +8,782 @@
 	],
 	"records": {
 		"general": {},
-		"travel": {},
-		"block": {},
-		"item": {},
+		"travel": {
+			"Distance-By-Elytra": {
+				"category": "travel",
+				"title": "Distance-By-Elytra",
+				"discord": "<@!611925972937211920>",
+				"minecraft": "KevinKC2014",
+				"value": "-7173-cm",
+				"url": "https://cdn.discordapp.com/attachments/668143351744167946/732192175684845648/image0.jpg",
+				"colour": "LIGHT_GREY",
+				"message": "770287576287936543"
+			},
+			"Distance-Swum": {
+				"category": "travel",
+				"title": "Distance-Swum",
+				"discord": "<@!270059191429890049>",
+				"minecraft": "Gsmack",
+				"value": "502.58.km",
+				"url": "https://cdn.discordapp.com/attachments/668143351744167946/678731597285163008/image0.jpg",
+				"colour": "BLUE",
+				"message": "770288046133870653"
+			},
+			"Distance-Fallen": {
+				"category": "travel",
+				"title": "Distance-Fallen",
+				"discord": "<@!642093284973477888>",
+				"minecraft": "_Courier6_",
+				"value": "254.10.km",
+				"url": "https://cdn.discordapp.com/attachments/668143351744167946/678728060530327562/image0.jpg",
+				"colour": "WHITE",
+				"message": "770288243878133770"
+			},
+			"Distance-Flown": {
+				"category": "travel",
+				"title": "Distance-Flown",
+				"discord": "<@!642093284973477888>",
+				"minecraft": "_Courier6_",
+				"value": "10694.15.km",
+				"url": "https://cdn.discordapp.com/attachments/668143351744167946/668300120781225984/flown.png",
+				"colour": "LIGHT_GREY",
+				"message": "770288442562052096"
+			},
+			"Distance-by-Minecart": {
+				"category": "travel",
+				"title": "Distance-by-Minecart",
+				"discord": "<@!270059191429890049>",
+				"minecraft": "Gsmack",
+				"value": "224.71.km",
+				"url": "https://cdn.discordapp.com/attachments/668143351744167946/668297367929356298/minecart.png",
+				"colour": "DARK_GREY",
+				"message": "770288665191907358"
+			},
+			"Distance-Crouched": {
+				"category": "travel",
+				"title": "Distance-Crouched",
+				"discord": "<@!270059191429890049>",
+				"minecraft": "Gsmack",
+				"value": "517.93.km",
+				"url": "https://cdn.discordapp.com/attachments/668143351744167946/668296257193902080/crouched.png",
+				"colour": "BLACK",
+				"message": "770288812936790056"
+			},
+			"Distance-Dove": {
+				"category": "travel",
+				"title": "Distance-Dove",
+				"discord": "<@!642093284973477888>",
+				"minecraft": "_Courier6_",
+				"value": "7893km",
+				"url": "https://cdn.discordapp.com/attachments/668143351744167946/668295397424365627/dove.png",
+				"colour": "BLUE",
+				"message": "770288976442818590"
+			},
+			"Distance-by-Horse": {
+				"category": "travel",
+				"title": "Distance-by-Horse",
+				"discord": "<@!761865874364956673>",
+				"minecraft": "Negative_Entropy",
+				"value": "-734517980-cm",
+				"url": "https://cdn.discordapp.com/attachments/668143351744167946/668276089042501642/horse.png",
+				"colour": "DARKER_GREY",
+				"message": "770289369197838397"
+			},
+			"Distance-By-Boat": {
+				"category": "travel",
+				"title": "Distance-By-Boat",
+				"discord": "<@!329485527726161920>",
+				"minecraft": "box",
+				"value": "-1365920559-cm",
+				"url": "https://cdn.discordapp.com/attachments/668143351744167946/668144687667740772/unknown.png",
+				"colour": "BLUE",
+				"message": "770289538664497192"
+			}
+		},
+		"block": {
+			"Diamond-Used": {
+				"category": "block",
+				"title": "Diamond-Used",
+				"discord": "<@!399028332987154445>",
+				"minecraft": "Hinterhof",
+				"value": "57543",
+				"url": "https://cdn.discordapp.com/attachments/668112015663038492/769564503112286228/adolf.png",
+				"colour": "AQUA",
+				"message": "770295035387838523"
+			},
+			"Diamond-Picked-Up": {
+				"category": "block",
+				"title": "Diamond-Picked-Up",
+				"discord": "<@!399028332987154445>",
+				"minecraft": "Hinterhof",
+				"value": "12577",
+				"url": "https://cdn.discordapp.com/attachments/668112015663038492/769564503112286228/adolf.png",
+				"colour": "AQUA",
+				"message": "770295223871864903"
+			},
+			"Diamond-Dropped": {
+				"category": "block",
+				"title": "Diamond-Dropped",
+				"discord": "<@!399028332987154445>",
+				"minecraft": "Hinterhof",
+				"value": "12274",
+				"url": "https://cdn.discordapp.com/attachments/668112015663038492/769564503112286228/adolf.png",
+				"colour": "AQUA",
+				"message": "770295299335389235"
+			},
+			"Enchanting-Tables-Picked-Up": {
+				"category": "block",
+				"title": "Enchanting-Tables-Picked-Up",
+				"discord": "<@!764516960171982858>",
+				"minecraft": "SyndicateNA",
+				"value": "21557",
+				"url": "https://cdn.discordapp.com/attachments/668112015663038492/769563751539802122/adolf.png",
+				"colour": "PURPLE",
+				"message": "770295545331187744"
+			},
+			"Enchanting-Dropped": {
+				"category": "block",
+				"title": "Enchanting-Dropped",
+				"discord": "<@!764516960171982858>",
+				"minecraft": "SyndicateNA",
+				"value": "23405",
+				"url": "https://cdn.discordapp.com/attachments/668112015663038492/769563751539802122/adolf.png",
+				"colour": "PURPLE",
+				"message": "770295658648305724"
+			},
+			"Mycelium-Mined": {
+				"category": "block",
+				"title": "Mycelium-Mined",
+				"discord": "<@!198584847864692736>",
+				"minecraft": "WarLordN1k",
+				"value": "44005",
+				"url": "https://cdn.discordapp.com/attachments/668112015663038492/766438412743344128/adolf.png",
+				"colour": "GREYPLE",
+				"message": "770295821324648449"
+			},
+			"Mycelium-Picked-Up": {
+				"category": "block",
+				"title": "Mycelium-Picked-Up",
+				"discord": "<@!198584847864692736>",
+				"minecraft": "WarLordN1k",
+				"value": "49235",
+				"url": "https://cdn.discordapp.com/attachments/668112015663038492/766438412743344128/adolf.png",
+				"colour": "GREYPLE",
+				"message": "770295934910201886"
+			},
+			"Stone-Crafted": {
+				"category": "block",
+				"title": "Stone-Crafted",
+				"discord": "<@!427542655623233559>",
+				"minecraft": "SkiHatDuckie",
+				"value": "23734",
+				"url": "https://cdn.discordapp.com/attachments/668112015663038492/765590499423420486/adolf.png",
+				"colour": "DARK_GREY",
+				"message": "770296138301440000"
+			},
+			"Netherrack-Mined": {
+				"category": "block",
+				"title": "Netherrack-Mined",
+				"discord": "<@!122803763466600448>",
+				"minecraft": "187k187k",
+				"value": "40023315",
+				"url": "https://cdn.discordapp.com/attachments/668112015663038492/763534271058673704/netherrackupdate.JPG",
+				"colour": "RED",
+				"message": "770296382913249320"
+			},
+			"Gravel-Mined": {
+				"category": "block",
+				"title": "Gravel-Mined",
+				"discord": "<@!576961444462067722>",
+				"minecraft": "Adolf_Hitler",
+				"value": "123279",
+				"url": "https://cdn.discordapp.com/attachments/668112015663038492/762778868611285070/adolf.png",
+				"colour": "GREY",
+				"message": "770296654065565706"
+			},
+			"Gravel-Picked-Up": {
+				"category": "block",
+				"title": "Gravel-Picked-Up",
+				"discord": "<@!576961444462067722>",
+				"minecraft": "Adolf_Hitler",
+				"value": "57835",
+				"url": "https://cdn.discordapp.com/attachments/668112015663038492/762778868611285070/adolf.png",
+				"colour": "GREY",
+				"message": "770296760735105074"
+			},
+			"Gravel-Dropped": {
+				"category": "block",
+				"title": "Gravel-Dropped",
+				"discord": "<@!576961444462067722>",
+				"minecraft": "Adolf_Hitler",
+				"value": "18088",
+				"url": "https://cdn.discordapp.com/attachments/668112015663038492/762778868611285070/adolf.png",
+				"colour": "GREY",
+				"message": "770296820593066015"
+			},
+			"Sand-Placed": {
+				"category": "block",
+				"title": "Sand-Placed",
+				"discord": "<@!576961444462067722>",
+				"minecraft": "Adolf_Hitler",
+				"value": "1814",
+				"url": "https://cdn.discordapp.com/attachments/668112015663038492/762778172172402688/adolf.png",
+				"colour": "YELLOW",
+				"message": "770297073991680010"
+			},
+			"Sand-Mined": {
+				"category": "block",
+				"title": "Sand-Mined",
+				"discord": "<@!576961444462067722>",
+				"minecraft": "Adolf_Hitler",
+				"value": "75895",
+				"url": "https://cdn.discordapp.com/attachments/668112015663038492/762778172172402688/adolf.png",
+				"colour": "YELLOW",
+				"message": "770297125518704700"
+			},
+			"Sand-Picked-Up": {
+				"category": "block",
+				"title": "Sand-Picked-Up",
+				"discord": "<@!576961444462067722>",
+				"minecraft": "Adolf_Hitler",
+				"value": "52504",
+				"url": "https://cdn.discordapp.com/attachments/668112015663038492/762778172172402688/adolf.png",
+				"colour": "YELLOW",
+				"message": "770297186364948510"
+			},
+			"Sand-Dropped": {
+				"category": "block",
+				"title": "Sand-Dropped",
+				"discord": "<@!576961444462067722>",
+				"minecraft": "Adolf_Hitler",
+				"value": "16165",
+				"url": "https://cdn.discordapp.com/attachments/668112015663038492/762778172172402688/adolf.png",
+				"colour": "YELLOW",
+				"message": "770297248461750272"
+			},
+			"Oak-Saplings-Placed": {
+				"category": "block",
+				"title": "Oak-Saplings-Placed",
+				"discord": "<@!576961444462067722>",
+				"minecraft": "Adolf_Hitler",
+				"value": "21",
+				"url": "https://cdn.discordapp.com/attachments/668112015663038492/762766905588711494/adolf.png",
+				"colour": "DARK_GREEN",
+				"message": "770297722083213333"
+			},
+			"Oak-Saplings-Mined": {
+				"category": "block",
+				"title": "Oak-Saplings-Mined",
+				"discord": "<@!576961444462067722>",
+				"minecraft": "Adolf_Hitler",
+				"value": "20",
+				"url": "https://cdn.discordapp.com/attachments/668112015663038492/762766905588711494/adolf.png",
+				"colour": "DARK_GREEN",
+				"message": "770297756795273277"
+			},
+			"Oak-Saplings-Picked-Up": {
+				"category": "block",
+				"title": "Oak-Saplings-Picked-Up",
+				"discord": "<@!576961444462067722>",
+				"minecraft": "Adolf_Hitler",
+				"value": "7565",
+				"url": "https://cdn.discordapp.com/attachments/668112015663038492/762766905588711494/adolf.png",
+				"colour": "DARK_GREEN",
+				"message": "770297875686096917"
+			},
+			"Oak-Saplings-Dropped": {
+				"category": "block",
+				"title": "Oak-Saplings-Dropped",
+				"discord": "<@!576961444462067722>",
+				"minecraft": "Adolf_Hitler",
+				"value": "3443",
+				"url": "https://cdn.discordapp.com/attachments/668112015663038492/762766905588711494/adolf.png",
+				"colour": "DARK_GREEN",
+				"message": "770297932616040468"
+			},
+			"Cobblestone-Placed": {
+				"category": "block",
+				"title": "Cobblestone-Placed",
+				"discord": "<@!576961444462067722>",
+				"minecraft": "Adolf_Hitler",
+				"value": "39340",
+				"url": "https://cdn.discordapp.com/attachments/668112015663038492/762766340817682472/adolf.png",
+				"colour": "GREY",
+				"message": "770298078963957781"
+			},
+			"Cobblestone-Mined": {
+				"category": "block",
+				"title": "Cobblestone-Mined",
+				"discord": "<@!576961444462067722>",
+				"minecraft": "Adolf_Hitler",
+				"value": "18553",
+				"url": "https://cdn.discordapp.com/attachments/668112015663038492/762766340817682472/adolf.png",
+				"colour": "GREY",
+				"message": "770298122965614643"
+			},
+			"Cobblestone-Picked-Up": {
+				"category": "block",
+				"title": "Cobblestone-Picked-Up",
+				"discord": "<@!576961444462067722>",
+				"minecraft": "Adolf_Hitler",
+				"value": "1097443",
+				"url": "https://cdn.discordapp.com/attachments/668112015663038492/762766340817682472/adolf.png",
+				"colour": "GREY",
+				"message": "770298187277140009"
+			},
+			"Cobblestone-Dropped": {
+				"category": "block",
+				"title": "Cobblestone-Dropped",
+				"discord": "<@!576961444462067722>",
+				"minecraft": "Adolf_Hitler",
+				"value": "535590",
+				"url": "https://cdn.discordapp.com/attachments/668112015663038492/762766340817682472/adolf.png",
+				"colour": "GREY",
+				"message": "770298249604628510"
+			},
+			"Dirt-Crafted": {
+				"category": "block",
+				"title": "Dirt-Crafted",
+				"discord": "<@!576961444462067722>",
+				"minecraft": "Adolf_Hitler",
+				"value": "64",
+				"url": "https://cdn.discordapp.com/attachments/668112015663038492/762765654449192980/adolf.png",
+				"colour": "DARK_ORANGE",
+				"message": "770299093452324904"
+			},
+			"Dirt-Placed": {
+				"category": "block",
+				"title": "Dirt-Placed",
+				"discord": "<@!576961444462067722>",
+				"minecraft": "Adolf_Hitler",
+				"value": "804518",
+				"url": "https://cdn.discordapp.com/attachments/668112015663038492/762765654449192980/adolf.png",
+				"colour": "DARK_ORANGE",
+				"message": "770299128428101633"
+			},
+			"Dirt-Mined": {
+				"category": "block",
+				"title": "Dirt-Mined",
+				"discord": "<@!576961444462067722>",
+				"minecraft": "Adolf_Hitler",
+				"value": "2228943",
+				"url": "https://cdn.discordapp.com/attachments/668112015663038492/762765654449192980/adolf.png",
+				"colour": "DARK_ORANGE",
+				"message": "770299191096246273"
+			},
+			"Dirt-Dropped": {
+				"category": "block",
+				"title": "Dirt-Dropped",
+				"discord": "<@!576961444462067722>",
+				"minecraft": "Adolf_Hitler",
+				"value": "220732",
+				"url": "https://cdn.discordapp.com/attachments/668112015663038492/762765654449192980/adolf.png",
+				"colour": "DARK_ORANGE",
+				"message": "770299381516599326"
+			},
+			"Stone-Placed": {
+				"category": "block",
+				"title": "Stone-Placed",
+				"discord": "<@!576961444462067722>",
+				"minecraft": "Adolf_Hitler",
+				"value": "110298",
+				"url": "https://cdn.discordapp.com/attachments/668112015663038492/762764386070036520/adolf.png",
+				"colour": "DARK_GREY",
+				"message": "770299963057766400"
+			},
+			"Stone-Mined": {
+				"category": "block",
+				"title": "Stone-Mined",
+				"discord": "<@!576961444462067722>",
+				"minecraft": "Adolf_Hitler",
+				"value": "5795162",
+				"url": "https://cdn.discordapp.com/attachments/668112015663038492/762764386070036520/adolf.png",
+				"colour": "DARK_GREY",
+				"message": "770300053406613506"
+			},
+			"Stone-Picked-Up": {
+				"category": "block",
+				"title": "Stone-Picked-Up",
+				"discord": "<@!576961444462067722>",
+				"minecraft": "Adolf_Hitler",
+				"value": "640502",
+				"url": "https://cdn.discordapp.com/attachments/668112015663038492/762764386070036520/adolf.png",
+				"colour": "DARK_GREY",
+				"message": "770300114974539796"
+			},
+			"Stone-Dropped": {
+				"category": "block",
+				"title": "Stone-Dropped",
+				"discord": "<@!576961444462067722>",
+				"minecraft": "Adolf_Hitler",
+				"value": "184704",
+				"url": "https://cdn.discordapp.com/attachments/668112015663038492/762764386070036520/adolf.png",
+				"colour": "DARK_GREY",
+				"message": "770300320436715578"
+			},
+			"Obsidian-Picked-Up": {
+				"category": "block",
+				"title": "Obsidian-Picked-Up",
+				"discord": "<@!350744245575090179>",
+				"minecraft": "superbad0315",
+				"value": "1328146",
+				"url": "https://cdn.discordapp.com/attachments/668112015663038492/762130480089923584/obbypickedup.png",
+				"colour": "PURPLE",
+				"message": "770300459012325418"
+			},
+			"Oak-Leaves-Mined": {
+				"category": "block",
+				"title": "Oak-Leaves-Mined",
+				"discord": "<@!707620912236855428>",
+				"minecraft": "C0mmie_",
+				"value": "4626",
+				"url": "https://cdn.discordapp.com/attachments/668112015663038492/762129947354595328/oakleaves.png",
+				"colour": "DARK_GREEN",
+				"message": "770300644879368213"
+			},
+			"Obsidian-Placed": {
+				"category": "block",
+				"title": "Obsidian-Placed",
+				"discord": "<@!216164404272693248>",
+				"minecraft": "JayFeatheralt",
+				"value": "1360340",
+				"url": "https://cdn.discordapp.com/attachments/668112015663038492/762128466304696330/statistics2.png",
+				"colour": "PURPLE",
+				"message": "770300807366967308"
+			},
+			"Enchantment-Tables-Placed": {
+				"category": "block",
+				"title": "Enchantment-Tables-Placed",
+				"discord": "<@!249500982436691968>",
+				"minecraft": "CoronaViruses",
+				"value": "12232",
+				"url": "https://cdn.discordapp.com/attachments/668112015663038492/724722231909023856/image0.png",
+				"colour": "PURPLE",
+				"message": "770301071556870154"
+			},
+			"Red-Shulkers-Picked-Up": {
+				"category": "block",
+				"title": "Red-Shulkers-Picked-Up",
+				"discord": "<@!270059191429890049>",
+				"minecraft": "Gsmack",
+				"value": "14209",
+				"url": "https://cdn.discordapp.com/attachments/668112015663038492/715749383898923058/2020-05-28_22.10.48.png",
+				"colour": "RED",
+				"message": "770301188423680020"
+			},
+			"Wooden-Planks-Crafted": {
+				"category": "block",
+				"title": "Wooden-Planks-Crafted",
+				"discord": "<@!270059191429890049>",
+				"minecraft": "Gsmack",
+				"value": "129717",
+				"url": "https://cdn.discordapp.com/attachments/668112015663038492/715747127770218536/2020-05-28_22.01.15.png",
+				"colour": "DARK_ORANGE",
+				"message": "770301331687604236"
+			},
+			"Carpet-Placed": {
+				"category": "block",
+				"title": "Carpet-Placed",
+				"discord": "<@!761865874364956673>",
+				"minecraft": "villicool112",
+				"value": "443999",
+				"url": "https://cdn.discordapp.com/attachments/668112015663038492/714580404354416720/image0.png",
+				"colour": "WHITE",
+				"message": "770301655764828162"
+			},
+			"Shrubs-Mined": {
+				"category": "block",
+				"title": "Shrubs-Mined",
+				"discord": "@FamilyPumpkin6#5109",
+				"minecraft": "FamilyPumpkin6",
+				"value": "18413",
+				"url": "https://cdn.discordapp.com/attachments/668112015663038492/714521406544674846/image0.png",
+				"colour": "DARK_ORANGE",
+				"message": "770301961966190613"
+			},
+			"Vines-Mined": {
+				"category": "block",
+				"title": "Vines-Mined",
+				"discord": "<@!116725144071831554>",
+				"minecraft": "5K5K",
+				"value": "1912",
+				"url": "https://cdn.discordapp.com/attachments/668112015663038492/713231355588116570/image0.png",
+				"colour": "DARK_GREEN",
+				"message": "770302103557767168"
+			},
+			"Purpur-Stairs-Dropped": {
+				"category": "block",
+				"title": "Purpur-Stairs-Dropped",
+				"discord": "<@!208842337508524034>",
+				"minecraft": "SkullerG",
+				"value": "547272",
+				"url": "https://cdn.discordapp.com/attachments/668112015663038492/703136318053679135/image0.jpg",
+				"colour": "PURPLE",
+				"message": "770302252254494760"
+			},
+			"Melon-Blocks-Dropped": {
+				"category": "block",
+				"title": "Melon-Blocks-Dropped",
+				"discord": "<@!208842337508524034>",
+				"minecraft": "SkullerG",
+				"value": "6941077",
+				"url": "https://cdn.discordapp.com/attachments/668112015663038492/703136233270018088/image0.jpg",
+				"colour": "GREEN",
+				"message": "770302434965848081"
+			},
+			"Crafting-Tables-Placed": {
+				"category": "block",
+				"title": "Crafting-Tables-Placed",
+				"discord": "<@!397178693832933376>",
+				"minecraft": "BigGirlXOXO",
+				"value": "48546",
+				"url": "https://cdn.discordapp.com/attachments/668112015663038492/701903375356395632/image0.jpg",
+				"colour": "DARK_ORANGE",
+				"message": "770302587571798067"
+			},
+			"Obsidian-Mined": {
+				"category": "block",
+				"title": "Obsidian-Mined",
+				"discord": "<@!116725144071831554>",
+				"minecraft": "5K5K",
+				"value": "147907",
+				"url": "https://cdn.discordapp.com/attachments/668112015663038492/692504917201387580/image0.jpg",
+				"colour": "PURPLE",
+				"message": "770302805973532772"
+			},
+			"TNT-Placed": {
+				"category": "block",
+				"title": "TNT-Placed",
+				"discord": "<@!451726235072987136>",
+				"minecraft": "Mad_King_Lambo",
+				"value": "468606",
+				"url": "https://cdn.discordapp.com/attachments/668112015663038492/680603779447652412/unknown.png",
+				"colour": "RED",
+				"message": "770302915372908574"
+			},
+			"Observers-Placed": {
+				"category": "block",
+				"title": "Observers-Placed",
+				"discord": "<@!329485527726161920>",
+				"minecraft": "box",
+				"value": "50209",
+				"url": "https://cdn.discordapp.com/attachments/668112015663038492/678732239558803466/image0.jpg",
+				"colour": "GREY",
+				"message": "770303145162440754"
+			},
+			"Shulkers-Crafted": {
+				"category": "block",
+				"title": "Shulkers-Crafted",
+				"discord": "<@!761865874364956673>",
+				"minecraft": "Promemer",
+				"value": "21869",
+				"url": "https://cdn.discordapp.com/attachments/668112015663038492/674745957849628683/dsdsdsdsdsa.png",
+				"colour": "PURPLE",
+				"message": "770303475988168714"
+			},
+			"Wood-mined": {
+				"category": "block",
+				"title": "Wood-mined",
+				"discord": "<@!116725144071831554>",
+				"minecraft": "TreeFarming",
+				"value": "49462",
+				"url": "https://cdn.discordapp.com/attachments/668112015663038492/668998849867677696/retrererttre.PNG",
+				"colour": "DARK_ORANGE",
+				"message": "770303644078964766"
+			},
+			"Sandstone-Placed": {
+				"category": "block",
+				"title": "Sandstone-Placed",
+				"discord": "<@!329485527726161920>",
+				"minecraft": "box",
+				"value": "60139",
+				"url": "https://cdn.discordapp.com/attachments/668112015663038492/668275189393653780/unknown.png",
+				"colour": "YELLOW",
+				"message": "770304288693420033"
+			},
+			"Sponge-Placed": {
+				"category": "block",
+				"title": "Sponge-Placed",
+				"discord": "<@!451726235072987136>",
+				"minecraft": "Mad_King_Lambo",
+				"value": "45097",
+				"url": "https://cdn.discordapp.com/attachments/668112015663038492/668165682021662778/unknown.png",
+				"colour": "YELLOW",
+				"message": "770304479509479444"
+			},
+			"Sponge-Mined": {
+				"category": "block",
+				"title": "Sponge-Mined",
+				"discord": "<@!451726235072987136>",
+				"minecraft": "Mad_King_Lambo",
+				"value": "1787",
+				"url": "https://cdn.discordapp.com/attachments/668112015663038492/668165682021662778/unknown.png",
+				"colour": "YELLOW",
+				"message": "770304565975187526"
+			},
+			"Ice-placed": {
+				"category": "block",
+				"title": "Ice-placed",
+				"discord": "@4Pilot#1691",
+				"minecraft": "4Pilot",
+				"value": "98929",
+				"url": "https://cdn.discordapp.com/attachments/668112015663038492/668150056213544980/unknown.png",
+				"colour": "AQUA",
+				"message": "770304753791795201"
+			},
+			"Ice-mined": {
+				"category": "block",
+				"title": "Ice-mined",
+				"discord": "@4Pilot#1691",
+				"minecraft": "4Pilot",
+				"value": "56632",
+				"url": "https://cdn.discordapp.com/attachments/668112015663038492/668150056213544980/unknown.png",
+				"colour": "AQUA",
+				"message": "770304837858099220"
+			}
+		},
+		"item": {
+			"Wheat-Crafted": {
+				"category": "item",
+				"title": "Wheat-Crafted",
+				"discord": "<@!361987629648052234>",
+				"minecraft": "bread_loafs",
+				"value": "51504",
+				"url": "https://cdn.discordapp.com/attachments/668112086462758912/769586394120847430/adolf.png",
+				"colour": "GOLD",
+				"message": "770279171796238357"
+			},
+			"Iron-Shovel-Usage": {
+				"category": "item",
+				"title": "Iron-Shovel-Usage",
+				"discord": "<@!427542655623233559>",
+				"minecraft": "SkiHatDuckie",
+				"value": "2982",
+				"url": "https://cdn.discordapp.com/attachments/668112086462758912/765591982587248640/adolf.png",
+				"colour": "LIGHT_GREY",
+				"message": "770279513589809173"
+			},
+			"Diamond-Pickaxe-Usage": {
+				"category": "item",
+				"title": "Diamond-Pickaxe-Usage",
+				"discord": "<@!122803763466600448>",
+				"minecraft": "187k187k",
+				"value": "40048991",
+				"url": "https://cdn.discordapp.com/attachments/668112086462758912/763534003738509332/diamondpickaxerecord.JPG",
+				"colour": "AQUA",
+				"message": "770279768020615228"
+			},
+			"Item-Frames-Used": {
+				"category": "item",
+				"title": "Item-Frames-Used",
+				"discord": "<@!295038405270831104>",
+				"minecraft": "ForceKen",
+				"value": "79544",
+				"url": "https://cdn.discordapp.com/attachments/668112086462758912/734343476384366592/image0.png",
+				"colour": "GREY",
+				"message": "770282062543323176"
+			},
+			"Ink-Sacs-Crafted": {
+				"category": "item",
+				"title": "Ink-Sacs-Crafted",
+				"discord": "<@!270059191429890049>",
+				"minecraft": "Gsmack",
+				"value": "106432",
+				"url": "https://cdn.discordapp.com/attachments/668112086462758912/715747725408206909/2020-05-28_22.04.13.png",
+				"colour": "BLACK",
+				"message": "770282355784810497"
+			},
+			"Diamond-Hoe-Usage": {
+				"category": "item",
+				"title": "Diamond-Hoe-Usage",
+				"discord": "<@!270059191429890049>",
+				"minecraft": "Gsmack",
+				"value": "6100",
+				"url": "https://cdn.discordapp.com/attachments/668112086462758912/715746381964509244/2020-05-28_21.57.54.png",
+				"colour": "AQUA",
+				"message": "770282752700186644"
+			},
+			"Buckets-Used": {
+				"category": "item",
+				"title": "Buckets-Used",
+				"discord": "<@!270059191429890049>",
+				"minecraft": "Gsmack",
+				"value": "68874",
+				"url": "https://cdn.discordapp.com/attachments/668112086462758912/713234926819868762/2020-05-21_23.37.07.png",
+				"colour": "LIGHT_GREY",
+				"message": "770283055746252830"
+			},
+			"Water-Buckets-Used": {
+				"category": "item",
+				"title": "Water-Buckets-Used",
+				"discord": "<@!270059191429890049>",
+				"minecraft": "Gsmack",
+				"value": "54049",
+				"url": "https://cdn.discordapp.com/attachments/668112086462758912/713234926819868762/2020-05-21_23.37.07.png",
+				"colour": "BLUE",
+				"message": "770283206196068362"
+			},
+			"Totems-Used": {
+				"category": "item",
+				"title": "Totems-Used",
+				"discord": "<@!270059191429890049>",
+				"minecraft": "Gsmack",
+				"value": "1766",
+				"url": "https://cdn.discordapp.com/attachments/668112086462758912/713233844211548220/2020-05-21_23.34.16.png",
+				"colour": "YELLOW",
+				"message": "770283427936600106"
+			},
+			"End-Crystals-Used": {
+				"category": "item",
+				"title": "End-Crystals-Used",
+				"discord": "<@!191714083752509441>",
+				"minecraft": "Cuffling",
+				"value": "37432",
+				"url": "https://cdn.discordapp.com/attachments/668112086462758912/710864583086309477/image0.png",
+				"colour": "LUMINOUS_VIVID_PINK",
+				"message": "770283756275105853"
+			},
+			"Maps-Used": {
+				"category": "item",
+				"title": "Maps-Used",
+				"discord": "<@!329485527726161920>",
+				"minecraft": "box",
+				"value": "172424",
+				"url": "https://cdn.discordapp.com/attachments/668112086462758912/678727223468883978/image0.jpg",
+				"colour": "GREY",
+				"message": "770284292475322419"
+			},
+			"XP-Bottles-Picked-Up": {
+				"category": "item",
+				"title": "XP-Bottles-Picked-Up",
+				"discord": "<@!270059191429890049>",
+				"minecraft": "GSTradingCo",
+				"value": "30740292",
+				"url": "https://cdn.discordapp.com/attachments/668112086462758912/668642875050950738/xp.png",
+				"colour": "YELLOW",
+				"message": "770284903010140190"
+			},
+			"Golden-Apples-Eaten": {
+				"category": "item",
+				"title": "Golden-Apples-Eaten",
+				"discord": "<@!642093284973477888>",
+				"minecraft": "_Courier6_",
+				"value": "27568",
+				"url": "https://cdn.discordapp.com/attachments/668112086462758912/668293886153719808/golden_apples.png",
+				"colour": "YELLOW",
+				"message": "770285220477272064"
+			},
+			"Redstone-Crafted": {
+				"category": "item",
+				"title": "Redstone-Crafted",
+				"discord": "<@!329485527726161920>",
+				"minecraft": "box",
+				"value": "62019",
+				"url": "https://cdn.discordapp.com/attachments/668112086462758912/668136223294095380/unknown.png",
+				"colour": "RED",
+				"message": "770285784946180127"
+			}
+		},
 		"mob": {
 			"Zombies-killed": {
 				"category": "mob",
@@ -63,6 +836,17 @@
 				"message": "762881598848630845"
 			}
 		},
-		"bot": {}
+		"bot": {
+			"Dirt-Crafted": {
+				"category": "bot",
+				"title": "Dirt-Crafted",
+				"discord": "<@!576961444462067722>",
+				"minecraft": "Adolf_Hitler",
+				"value": "64",
+				"url": "https://cdn.discordapp.com/attachments/668112015663038492/762765654449192980/adolf.png",
+				"colour": "DARK_ORANGE",
+				"message": "770298564805918720"
+			}
+		}
 	}
 }
