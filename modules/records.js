@@ -173,7 +173,7 @@ module.exports = {
 			.then((formattedResults) =>
 				msg.channel.send(new MessageEmbed()
 					.setTitle(`Results for \`${query}\` in category \`${category}\``)
-					.setDescription(formattedResults.join('\n\n'))))
+					.setDescription(formattedResults.join('\n\n').replace(/@/g, ''))))
 			.catch((err) => {
 				log.warn(err);
 				msg.channel.send(err.message);
